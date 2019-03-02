@@ -1,0 +1,8 @@
+prefix=/home/saikat/arduino_rs/install
+
+Name: rosserial_server
+Description: Description of rosserial_server
+Version: 0.7.7
+Cflags: -I/home/saikat/arduino_rs/install/include
+Libs: -L/home/saikat/arduino_rs/install/lib 
+Requires: roscpp rosserial_msgs std_msgs topic_tools
